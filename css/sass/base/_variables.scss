@@ -7,38 +7,38 @@ $font-book:font-book;
 
 @font-face {
     font-family: $font-medium;
-    src: url('https://helbing23.github.io/ria-database/tree/main/fonts/Gotham-Medium.eot') format('embedded-opentype'),
-      url('https://helbing23.github.io/ria-database/tree/main/fonts/Gotham-Medium.woff2') format('woff2'), 
-      url('https://helbing23.github.io/ria-database/tree/main/fonts/Gotham-Medium.woff') format('woff'),
-      url('https://helbing23.github.io/ria-database/tree/main/fonts/Gotham-Medium.ttf') format('truetype');
+    src: url('https://helbing23.github.io/ria-database/blob/main/fonts/Gotham-Medium.eot') format('embedded-opentype'),
+      url('https://helbing23.github.io/ria-database/blob/main/fonts/Gotham-Medium.woff2') format('woff2'), 
+      url('https://helbing23.github.io/ria-database/blob/main/fonts/Gotham-Medium.woff') format('woff'),
+      url('https://helbing23.github.io/ria-database/blob/main/fonts/Gotham-Medium.ttf') format('truetype');
 }
 @font-face {
     font-family: $font-light;
-    src: url('https://helbing23.github.io/ria-database/tree/main/fonts/GothamLight.ttf') format('truetype');
+    src: url('https://helbing23.github.io/ria-database/blob/main/fonts/GothamLight.ttf') format('truetype');
       
 }
 @font-face {
     font-family: $font-bold;
-    src: url('https://helbing23.github.io/ria-database/tree/main/fonts/');
-    src: url('https://helbing23.github.io/ria-database/tree/main/fonts/Gotham-Bold.eot') format('embedded-opentype'),
-      url('https://helbing23.github.io/ria-database/tree/main/fonts/Gotham-Bold.woff2') format('woff2'), 
-      url('https://helbing23.github.io/ria-database/tree/main/fonts/Gotham-Bold.woff') format('woff'),
-      url('https://helbing23.github.io/ria-database/tree/main/fonts/Gotham-Bold.ttf') format('truetype');
+    src: url('https://helbing23.github.io/ria-database/blob/main/fonts/');
+    src: url('https://helbing23.github.io/ria-database/blob/main/fonts/Gotham-Bold.eot') format('embedded-opentype'),
+      url('https://helbing23.github.io/ria-database/blob/main/fonts/Gotham-Bold.woff2') format('woff2'), 
+      url('https://helbing23.github.io/ria-database/blob/main/fonts/Gotham-Bold.woff') format('woff'),
+      url('https://helbing23.github.io/ria-database/blob/main/fonts/Gotham-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 @font-face {
     font-family: $font-book;
-    src: url('https://helbing23.github.io/ria-database/tree/main/fonts/Gotham-Book.eot') format('embedded-opentype'),
-      url('https://helbing23.github.io/ria-database/tree/main/fonts/Gotham-Book.woff2') format('woff2'), 
-      url('https://helbing23.github.io/ria-database/tree/main/fonts/Gotham-Book.woff') format('woff'),
-      url('https://helbing23.github.io/ria-database/tree/main/fonts/Gotham-Book.ttf') format('truetype');
+    src: url('https://helbing23.github.io/ria-database/blob/main/fonts/Gotham-Book.eot') format('embedded-opentype'),
+      url('https://helbing23.github.io/ria-database/blob/main/fonts/Gotham-Book.woff2') format('woff2'), 
+      url('https://helbing23.github.io/ria-database/blob/main/fonts/Gotham-Book.woff') format('woff'),
+      url('https://helbing23.github.io/ria-database/blob/main/fonts/Gotham-Book.ttf') format('truetype');
 }
 @font-face {
     font-family: $font-itallic;
-    src: url('https://helbing23.github.io/ria-database/tree/main/fonts/Gotham-BoldItalic.eot') format('embedded-opentype'),
-      url('https://helbing23.github.io/ria-database/tree/main/fonts/Gotham-BoldItalic.woff2') format('woff2'), 
-      url('https://helbing23.github.io/ria-database/tree/main/fonts/Gotham-BoldItalic.woff') format('woff'),
-      url('https://helbing23.github.io/ria-database/tree/main/fonts/Gotham-BoldItalic.ttf') format('truetype');
+    src: url('https://helbing23.github.io/ria-database/blob/main/fonts/Gotham-BoldItalic.eot') format('embedded-opentype'),
+      url('https://helbing23.github.io/ria-database/blob/main/fonts/Gotham-BoldItalic.woff2') format('woff2'), 
+      url('https://helbing23.github.io/ria-database/blob/main/fonts/Gotham-BoldItalic.woff') format('woff'),
+      url('https://helbing23.github.io/ria-database/blob/main/fonts/Gotham-BoldItalic.ttf') format('truetype');
 }
 
 $font-main: $font-medium;
