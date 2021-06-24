@@ -1,0 +1,26 @@
+footer{
+    background: $silvergrey;
+    padding: 0;
+
+    ul{
+        list-style: none;
+        padding: 0;
+        li{
+            padding-right: 30px;
+
+            a{
+                color: $color-main;
+                &:hover{
+                    color:$darkgrey;
+                }
+            }
+
+        }
+    }
+    @include break(0,767px){
+        padding-left: 20px !important;
+    }
+    small{
+        font-family: $font-book;
+    }
+}

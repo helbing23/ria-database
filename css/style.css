@@ -1,0 +1,354 @@
+@font-face {
+  font-family: font-medium;
+  src: url("/fonts/Gotham-Medium.eot") format("embedded-opentype"), url("/fonts/Gotham-Medium.woff2") format("woff2"), url("/fonts/Gotham-Medium.woff") format("woff"), url("/fonts/Gotham-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: font-light;
+  src: url("/fonts/GothamLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: font-bold;
+  src: url("/fonts/");
+  src: url("/fonts/Gotham-Bold.eot") format("embedded-opentype"), url("/fonts/Gotham-Bold.woff2") format("woff2"), url("/fonts/Gotham-Bold.woff") format("woff"), url("/fonts/Gotham-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: font-book;
+  src: url("/fonts/Gotham-Book.eot") format("embedded-opentype"), url("/fonts/Gotham-Book.woff2") format("woff2"), url("/fonts/Gotham-Book.woff") format("woff"), url("/fonts/Gotham-Book.ttf") format("truetype");
+}
+@font-face {
+  font-family: font-itallic;
+  src: url("/fonts/Gotham-BoldItalic.eot") format("embedded-opentype"), url("/fonts/Gotham-BoldItalic.woff2") format("woff2"), url("/fonts/Gotham-BoldItalic.woff") format("woff"), url("/fonts/Gotham-BoldItalic.ttf") format("truetype");
+}
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: font-medium;
+  color: #672a73;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: font-medium;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  padding: 40px 0 !important;
+}
+header nav {
+  background: -moz-linear-gradient(top, #962d36 0, #962d39 13%, #672a73 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0, #962d36), color-stop(13%, #962d39), color-stop(100%, #672a73));
+  background: -webkit-linear-gradient(top, #962d36 0, #962d39 13%, #672a73 100%);
+  background: -o-linear-gradient(top, #962d36 0, #962d39 13%, #672a73 100%);
+  background: -ms-linear-gradient(top, #962d36 0, #962d39 13%, #672a73 100%);
+  background: linear-gradient(to right, #962d36 0, #962d39 13%, #672a73 100%);
+}
+nav .navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 0) and (max-width: 767px) {
+  nav .navbar-brand {
+    width: 80%;
+    padding-left: 20px;
+  }
+}
+nav .navbar-brand img {
+  width: 70%;
+}
+nav ul.navbar-nav li {
+  padding-right: 3rem;
+}
+nav ul.navbar-nav li a {
+  color: #fff;
+  font-family: inherit;
+  font-size: 20px;
+}
+@media (min-width: 0) and (max-width: 767px) {
+  nav ul.navbar-nav {
+    padding: 20px;
+  }
+}
+nav .navbar-toggler {
+  border: none;
+  padding-right: 30px;
+}
+nav .navbar-toggler:focus {
+  outline: none;
+}
+nav .navbar-toggler-icon {
+  background-image: url("/img/menu-icon.png") !important;
+  width: 40px;
+  height: 35px;
+}
+
+.hero-slider {
+  background-image: url("/img/banner.jpg");
+  padding-top: 100px;
+  padding-top: 100px;
+  background-position: left center;
+  background-size: cover;
+  height: 1000px;
+  position: relative;
+  top: -60px;
+}
+@media (min-width: 0) and (max-width: 767px) {
+  .hero-slider {
+    top: -100px;
+  }
+}
+.hero-slider h1 {
+  font-size: 68px;
+  color: #fff;
+  padding-top: 20rem;
+  line-height: 60px;
+  padding-bottom: 20px;
+}
+@media (min-width: 0) and (max-width: 767px) {
+  .hero-slider h1 {
+    font-size: 60px;
+  }
+}
+.hero-slider p {
+  font-size: 30px;
+  line-height: 30px;
+  font-family: font-book;
+}
+@media (min-width: 0) and (max-width: 767px) {
+  .hero-slider p {
+    font-size: 25px;
+    line-height: 25px;
+  }
+}
+
+.bottom-slider {
+  background: -moz-linear-gradient(top, #962d36 0, #962d39 13%, #672a73 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0, #962d36), color-stop(13%, #962d39), color-stop(100%, #672a73));
+  background: -webkit-linear-gradient(top, #962d36 0, #962d39 13%, #672a73 100%);
+  background: -o-linear-gradient(top, #962d36 0, #962d39 13%, #672a73 100%);
+  background: -ms-linear-gradient(top, #962d36 0, #962d39 13%, #672a73 100%);
+  background: linear-gradient(to right, #962d36 0, #962d39 13%, #672a73 100%);
+  position: relative;
+  top: -60px;
+}
+@media (min-width: 0) and (max-width: 767px) {
+  .bottom-slider {
+    top: -100px;
+  }
+}
+.bottom-slider h5 {
+  font-family: font-bold;
+  font-size: 20px;
+}
+
+.when-choose {
+  background: #fff;
+}
+.when-choose h3 {
+  font-size: 33px;
+  font-family: inherit;
+  color: #672a73;
+}
+.when-choose .row {
+  background: #f4f4f4;
+}
+.when-choose .card {
+  background: transparent;
+  border: none;
+}
+.when-choose .card .card-img1, .when-choose .card .card-img3 {
+  width: 15%;
+}
+@media (min-width: 0) and (max-width: 767px) {
+  .when-choose .card .card-img1, .when-choose .card .card-img3 {
+    width: 40%;
+  }
+}
+.when-choose .card .card-img2 {
+  width: 20%;
+}
+@media (min-width: 0) and (max-width: 767px) {
+  .when-choose .card .card-img2 {
+    width: 50%;
+  }
+}
+.when-choose .card h1.card-title {
+  font-family: font-medium;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+@media (min-width: 0) and (max-width: 767px) {
+  .when-choose .card h1.card-title {
+    font-size: 28px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .when-choose .card h1.card-title {
+    font-size: 24px;
+  }
+}
+.when-choose .card h1.card-title span {
+  font-family: font-light;
+  font-size: 20px;
+}
+@media (min-width: 0) and (max-width: 767px) {
+  .when-choose .card h1.card-title span {
+    font-size: 18px;
+  }
+}
+.when-choose .card .card-body {
+  text-align: left;
+}
+.when-choose .card .card-body p {
+  margin-bottom: 0;
+}
+.when-choose .card .card-body p:last-of-type {
+  color: #58595b;
+  padding-bottom: 10px;
+}
+.when-choose .card .card-body a {
+  color: #672a73;
+  text-decoration: underline;
+  font-size: 14px;
+}
+.when-choose .card .card-body img {
+  display: none;
+}
+@media (min-width: 0) and (max-width: 767px) {
+  .when-choose .card .card-body img {
+    display: block;
+  }
+}
+@media (min-width: 0) and (max-width: 767px) {
+  .when-choose .card {
+    border-bottom: 1.5px solid #bdbbbb;
+    padding: 20px;
+    border-radius: 0;
+  }
+  .when-choose .card-last {
+    border: none;
+  }
+}
+
+.cta .row {
+  background: #672a73;
+}
+.cta h3 {
+  font-family: font-book;
+  font-size: 30px;
+}
+.cta p {
+  font-family: font-book;
+  font-size: 20px;
+}
+
+.form-section .container {
+  background: #f4f4f4;
+}
+.form-section .form-group label {
+  font-family: font-book;
+  font-size: 16px;
+  line-height: 32px;
+}
+.form-section .form-group input {
+  height: 40px;
+  font-size: 14px;
+}
+.form-section .form-group input:focus {
+  border-color: #6c3576;
+  box-shadow: none;
+}
+.form-section .form-group .help-block {
+  font-family: font-itallic;
+  font-size: 12px;
+  line-height: 32px;
+  font-weight: 100;
+}
+.form-section .form-action .btn {
+  width: 200px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  border-radius: 0;
+}
+.form-section .form-action p {
+  font-family: font-book;
+}
+.form-section .form-action a {
+  text-decoration: underline;
+  color: #672a73;
+}
+.form-section .form-action a:hover {
+  color: #58595b;
+}
+.form-section .was-validated .form-control:invalid {
+  border: 1.5px solid #dc3545 !important;
+  background: #feeced;
+}
+
+footer {
+  background: #f4f4f4;
+  padding: 0;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer ul li {
+  padding-right: 30px;
+}
+footer ul li a {
+  color: #672a73;
+}
+footer ul li a:hover {
+  color: #58595b;
+}
+@media (min-width: 0) and (max-width: 767px) {
+  footer {
+    padding-left: 20px !important;
+  }
+}
+footer small {
+  font-family: font-book;
+}
+
+.btn-default {
+  display: inline-block;
+  padding: 10px 12px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: none;
+  font-family: font-medium;
+  user-select: none;
+  color: #000;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.btn-default {
+  background-color: #672a73;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,201 @@
+//hero-section
+.hero-slider{
+    background-image: url('/img/banner.jpg'); padding-top: 100px;
+    padding-top: 100px;
+    background-position: left center;
+    background-size: cover;
+    height: 1000px;
+    position: relative;
+    top: -60px;
+    @include break(0,767px){
+        top:-100px;
+    }
+
+
+    h1{
+        font-size: 68px;
+        color: $color-backgrounds;
+        padding-top: 20rem;
+        line-height: 60px;
+        padding-bottom: 20px;
+        @include break(0,767px){
+            font-size: 60px;
+        }
+    }
+    p{
+        font-size: 30px;
+        line-height: 30px;
+        font-family: $font-book;
+        @include break(0,767px){
+            font-size: 25px;
+            line-height: 25px;
+        }
+    }
+}
+//bottom-slider section
+.bottom-slider{
+    background: -moz-linear-gradient(top,#962d36 0,#962d39 13%,#672a73 100%);
+    background: -webkit-gradient(left top,left bottom,color-stop(0,#962d36),color-stop(13%,#962d39),color-stop(100%,#672a73));
+    background: -webkit-linear-gradient(top,#962d36 0,#962d39 13%,#672a73 100%);
+    background: -o-linear-gradient(top,#962d36 0,#962d39 13%,#672a73 100%);
+    background: -ms-linear-gradient(top,#962d36 0,#962d39 13%,#672a73 100%);
+    background: linear-gradient(to right,#962d36 0,#962d39 13%,#672a73 100%);
+    position: relative;
+    top: -60px;
+    @include break(0,767px){
+        top:-100px;
+    }
+    h5{
+        font-family: $font-bold;
+        font-size: 20px;
+    }
+}
+//when you choose section
+.when-choose{
+    background: $color-backgrounds;
+    h3{
+        font-size: 33px;
+        font-family: inherit;
+        color: $color-main;
+    }
+
+    .row{
+        background: $silvergrey;
+    }
+    .card {
+        background: transparent;
+        border: none;
+
+        .card-img1,.card-img3{
+            width: 15%;
+            @include break(0,767px){
+                width:40%;
+            }
+        }
+        .card-img2{
+            width: 20%;
+            @include break(0,767px){
+                width:50%;
+            }
+        }
+        h1.card-title{
+            font-family: $font-medium;
+            text-transform: uppercase;
+            font-size: 40px;
+            @include break(0,767px){
+                font-size: 28px;
+            }
+            @include break(768px,1024px){
+                font-size: 24px;
+            }
+            span{
+                font-family: $font-light;
+                font-size: 20px;
+                @include break(0,767px){
+                    font-size: 18px;
+                }
+            }  
+        }
+
+        .card-body{
+            text-align: left;
+            p{
+                margin-bottom: 0;
+            }
+            p:last-of-type{
+                color: $darkgrey;
+                padding-bottom: 10px;
+            }
+            a{
+                color: $color-main;
+                text-decoration: underline;
+                font-size: 14px;
+            }
+            img{
+                display: none;
+                @include break(0,767px){
+                    display: block;
+                }
+            }
+        }
+
+    }
+    @include break(0,767px){
+        .card{
+            border-bottom: 1.5px solid $border-color;
+            padding: 20px;
+            border-radius: 0;
+        }
+        .card-last{
+            border: none;
+        }
+
+    }
+
+}
+//call to action section
+.cta{
+    .row{
+        background: $color-main;
+    }
+    h3{
+        font-family: $font-book;
+        font-size: 30px;
+    }
+    p{
+        font-family: $font-book;
+        font-size: 20px;
+    }
+
+}
+//form-section
+.form-section{
+    .container{
+        background: $silvergrey;
+    }
+    .form-group{
+        label{
+            font-family: $font-book;
+            font-size: 16px;
+            line-height: 32px;
+        }
+        input{
+            height: 40px;
+            font-size: 14px;
+            &:focus{
+                border-color: $purple;
+                box-shadow: none;
+            }
+        }
+        .help-block{
+            font-family: $font-itallic;
+            font-size: 12px;
+            line-height: 32px;
+            font-weight: 100;
+        }
+    }
+
+    .form-action{
+        .btn{
+            width: 200px;
+            color: $color-backgrounds;
+            font-size: 18px;
+            line-height: 24px;
+            border-radius: 0;
+        }
+        p{
+            font-family: $font-book;
+        }
+        a{
+            text-decoration: underline;
+            color: $color-main;
+            &:hover{
+                color: $darkgrey;
+            }
+        }
+    }
+    .was-validated .form-control:invalid{
+        border: 1.5px solid #dc3545 !important;
+        background: #feeced;
+    }
+}

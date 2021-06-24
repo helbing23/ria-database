@@ -1,0 +1,58 @@
+// Load Fonts
+$font-medium: font-medium;
+$font-light: font-light;
+$font-bold:font-bold;
+$font-itallic:font-itallic;
+$font-book:font-book;
+
+@font-face {
+    font-family: $font-medium;
+    src: url('/fonts/Gotham-Medium.eot') format('embedded-opentype'),
+      url('/fonts/Gotham-Medium.woff2') format('woff2'), 
+      url('/fonts/Gotham-Medium.woff') format('woff'),
+      url('/fonts/Gotham-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: $font-light;
+    src: url('/fonts/GothamLight.ttf') format('truetype');
+      
+}
+@font-face {
+    font-family: $font-bold;
+    src: url('/fonts/');
+    src: url('/fonts/Gotham-Bold.eot') format('embedded-opentype'),
+      url('/fonts/Gotham-Bold.woff2') format('woff2'), 
+      url('/fonts/Gotham-Bold.woff') format('woff'),
+      url('/fonts/Gotham-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: $font-book;
+    src: url('/fonts/Gotham-Book.eot') format('embedded-opentype'),
+      url('/fonts/Gotham-Book.woff2') format('woff2'), 
+      url('/fonts/Gotham-Book.woff') format('woff'),
+      url('/fonts/Gotham-Book.ttf') format('truetype');
+}
+@font-face {
+    font-family: $font-itallic;
+    src: url('/fonts/Gotham-BoldItalic.eot') format('embedded-opentype'),
+      url('/fonts/Gotham-BoldItalic.woff2') format('woff2'), 
+      url('/fonts/Gotham-BoldItalic.woff') format('woff'),
+      url('/fonts/Gotham-BoldItalic.ttf') format('truetype');
+}
+
+$font-main: $font-medium;
+
+$white:       #fff;
+$grey:        #bdbbbb;
+$darkgrey:    #58595b;
+$darkpurple:  #672a73;
+$purple:      #6c3576;
+$orange:      #fdb317;
+$silvergrey:  #f4f4f4;
+$black:       #000;
+
+$color-main: $darkpurple;
+$color-backgrounds: $white;
+$color-light: $purple;
+$border-color:$grey;
